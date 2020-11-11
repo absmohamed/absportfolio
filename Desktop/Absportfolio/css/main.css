@@ -1,0 +1,131 @@
+/*** GENERAL ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*** This changes color to red when right-clicking and highlighting texts ***/
+
+
+::selection {
+	background-color: grey;
+	color: white
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	font-weight: 400 !important;
+}
+
+a:hover {
+	font-weight: 400 !important;
+}
+
+p{
+	font-size: 20px;
+}
+
+/***  Navbar ***/
+.navbar-link, a.navbar-item {
+	color: lightgray!important;
+}
+
+.navbar-link, a.navbar-item:hover {
+	color: black !important;
+	background-color:lightgray!important;
+}
+
+
+/*** Adds a small shadow underneath the navbar ***/
+.box-shadow-y {
+	box-shadow: 0px 2.5px 10px black
+}
+
+.customPadding {
+	padding-top: 1.25rem;
+	padding-bottom: 0.75rem;
+}
+
+.menu-container.active {
+	transform: translate(0%);
+}
+/***  Inbetween parts in a page ***/
+.pageSections {
+	margin-top: 0px 2% 0px;
+}
+
+.pageSectionsColumns {
+	margin-top: 25px;
+}
+
+
+/*** Portfolio ***/
+.portfolioBtn {
+	background-color: #7c0a02;
+	color: #fff !important;
+	border-radius: 5px;
+	padding 10px;
+}
+
+/*** Footer ***/
+.icon {
+	margin: 0px 10px 0px 10px;
+	text-align: center
+}
+
+.emailMe {
+	color: #fff;
+	background-color:#7c0a02;
+	padding: 10px 25px 10px 25px;
+	border-radius: 5px;
+}
+
+.footerNav {
+	padding-top: 40px;
+
+}
+
+.fa-github {
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	background-color: white;
+	color: black;
+}
+
+.fa-github:hover {
+	color: red;
+	opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	color: #55ACEE;
+  }
+
+  .fa-twitter:hover {
+	color: #55ACEE;
+	opacity: 0.7;
+}
+
+/* Linkedin */
+  .fa-linkedin {
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition: .5s;
+	color: rgb(28, 172, 220);
+  }
+
+  .fa-linkedin:hover {
+	color: rgb(28, 172, 220);
+	opacity: 0.7;
+}
